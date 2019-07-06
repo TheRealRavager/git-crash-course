@@ -48,3 +48,16 @@ Desc: Merge the changes from your branch into another branch
 - Run 'git merge *branch name*'
 - The commits from *branch name* will be added to master
 - Remember to 'git push' to push your changes to the remote repository
+- If there are conflicts, open the file on the IDE of your choice, and resolve the conflict
+    Resolving Conflicts:
+    <<<<<< HEAD
+    stuff from one commit
+    =================
+    stuff from another commit
+    >>>>>> *branch name*
+
+    - Choose which commit to keep by deleting the other commit's change
+    - e.g. If you choose to keep changes from HEAD you should delete everything until this is left:
+    stuff from one commit
+    - If you choose to keep the changes from *branch name*, delete everything until this is left:
+    stuff from other commit
