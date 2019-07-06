@@ -43,3 +43,7 @@ TL:DR
 - Explain what and why things were changed instead of how
 
 5. Merging
+Desc: Merge the changes from your branch into another branch
+- Switch to the target branch (the one you want your changes to be reflected on, e.g. master)
+- Run 'git merge *branch name*'
+- The commits from *branch name* will be added to master
