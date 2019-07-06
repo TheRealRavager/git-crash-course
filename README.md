@@ -47,3 +47,4 @@ Desc: Merge the changes from your branch into another branch
 - Switch to the target branch (the one you want your changes to be reflected on, e.g. master)
 - Run 'git merge *branch name*'
 - The commits from *branch name* will be added to master
+- Remember to 'git push' to push your changes to the remote repository
