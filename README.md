@@ -61,3 +61,5 @@ Desc: Merge the changes from your branch into another branch
     stuff from one commit
     - If you choose to keep the changes from *branch name*, delete everything until this is left:
     stuff from other commit
+    - Some IDEs (such as VS Code) will highlight the conflict for you and allow you to resolve it by
+    clicking a button, which is far more convenient
